@@ -1,0 +1,20 @@
+Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Bu dizeyi ortadan ikiye böleceğiz 3 3 olacak şekilde
+[16,21,11]    [8,12,22]
+
+Bu sayıları tek kalana kadar ayıracağız
+[16]  [21,11]        [8,12]  [22] 
+[16]  [21] [11]      [8]  [12]  [22]
+
+Bu sayıları sıralayıp birleştireceğiz
+[16] [11,21]         [8,12]  [22]
+[11,16,21]          [8,12,22]
+     [8,11,12,16,21,22]
+bu sort un avantajı ise sadece 2 sayıyı kıyaslamamız baktığımız yere dönüp dönüp bakmamamız
+
+
+Big-O gösterimini yazınız.
+O(nlogn)dir.
